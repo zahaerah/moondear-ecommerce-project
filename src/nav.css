@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.free {
+    padding: 10px 30px;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+}
+
+.free .icon {
+    color: white;
+    font-size: 32px;
+}
+
+.free p {
+    margin-left: 10px;
+    color: white;
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    padding-top: 20px;
+    width:50px;
+}
+
+.name p {
+    text-align: center;
+    margin-top: 5px;
+    color: #e91e63;
+    font-family: victor mono;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main_header {
+    padding: 30px 40px;
+    width: 100%;
+    border-bottom: 1px solid darkred;
+}
+
+.main_header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_header .container .search_box {
+    margin-right: 30px;
+}
+
+.main_header .container .search_box input {
+    outline: none;
+    padding: 10px 10px;
+    border: 3px solid pink;
+    width: 300px;
+    color: #101c10;
+    border-radius: 5px;
+}
+
+.main_header .container .search_box button {
+    margin-left: 5px;
+    border: 3px solid pink;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: pink;
+    color: darkred;
+    transition: 0.5s;
+}
+
+.main_header .container .search_box button:hover {
+    border: 3px solid palevioletred;
+    background: palevioletred;
+    color: #ecf2f7;
+}
+
+.main_header .container .icons {
+    display: flex;
+    margin-left: 0px
+}
+
+.main_header .container .icons .account {
+    display: flex;
+    margin-right: 0px
+}
+
+.main_header .container .icons .account .user_icon{
+
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: 22px;
+    color: darkred;
+    cursor: pointer;
+}
+
+.main_header .container .icons .account p {
+    margin-right: 0px;
+    margin-top: 13px;
+    color: darkred;
+}
+
+.main_header .container .icons .sec_icon {
+    display: flex;
+}
+
+.main_header .container .icons .sec_icon .link {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: darkred;
+}
+
+.header {
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header .container .nav ul {
+    display: flex;
+}
+
+.header .container .nav ul li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.header .container .nav ul li .link {
+    text-decoration: none;
+    color: darkred;
+    transition: 0.5s;
+}
+
+.header .container .nav ul li .link:hover {
+    color: palevioletred;
+}
+
+.header .container .auth {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header .container .auth button {
+    margin-right: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    color: darkred;
+}
